@@ -11,7 +11,7 @@ const YoutubeComp = (props) => {
     );
 }
 
-YoutubeComp.defaultProps = {
+YoutubeComp.defaultProps ={
     thumbnail: "default thumbnail",
     title: "default title",
     description: "default description"
