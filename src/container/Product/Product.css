@@ -1,11 +1,11 @@
 .card-wrapper{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 200px;
+    width: 500px;
     border-radius: 10px;
     transition: 0.3s;
     margin: 10px;
     padding: 10px;
-    display: inline-block;
+    display: block;
 }
 
 .header{
@@ -23,4 +23,65 @@
 
 .counter{
     width: 30px;
+}
+
+.btn-delete{
+    padding: 12px 18px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-delete:hover{
+    cursor: pointer;
+    background-color: blue;
+    border: 1px red solid;
+}
+
+.btn-edit{
+    margin-left: 10px;
+    padding: 12px 18px;
+    background-color: rgb(24, 117, 24);
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-edit:hover{
+    cursor: pointer;
+    background-color: blue;
+    border: 1px red solid;
+}
+
+.input-box{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 5px;
+}
+
+.text-title{
+    margin: 10px;
+}
+
+.btn-submit{
+    margin: 10px;
+    background-color: blue;
+    padding: 12px 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: rgb(98, 98, 219);
 }
