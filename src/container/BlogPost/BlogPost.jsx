@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import Post from "../../component/Post/Post";
 import "../Product/Product.css";
 import axios from "axios";
+import Sidebar from "../Sidebar/Sidebar";
 
 class BlogPost extends Component {
 

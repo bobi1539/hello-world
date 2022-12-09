@@ -16,7 +16,7 @@ class Product extends Component{
     render(){
         return (
             <Fragment>
-                <h1>BUAT STATE DI COMPONENT (STATELESS) BESOK</h1>
+                <h2>Product Component</h2>
                 <div className="header">
                     <h5>Header</h5>    
                     <p>{this.state.order}</p>
